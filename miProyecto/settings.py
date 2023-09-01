@@ -116,7 +116,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000/", "https://www.sistemasautoorganizados.com/" # Cambia esto al dominio de tu frontend
+    "http://localhost:3000/", "https://www.sistemasautoorganizados.com/","https://script.google.com/" # Cambia esto al dominio de tu frontend
 ]
 
 CORS_ALLOW_METHODS = [
