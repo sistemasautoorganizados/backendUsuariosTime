@@ -40,10 +40,11 @@ class EstadisticaListView(APIView):
                     "id": {"S": str(estadistica_object.id)},
                     "fecha_ingreso": {"S": estadistica_object.fecha_ingreso},
                     "hora_ingreso": {"S": estadistica_object.hora_ingreso},
-                    "fecha_salida": {"S": estadistica_object.fecha_salida},
-                    "hora_salida": {"S": estadistica_object.hora_salida},
+                    "pais": {"S": estadistica_object.pais},
+                    "ciudad": {"S": estadistica_object.ciudad},
                     "tiempo": {"S": estadistica_object.tiempo},
-                    "ruta": {"S": estadistica_object.ruta}
+                    "ruta": {"S": estadistica_object.ruta},
+                    "dispositivo": {"S": estadistica_object.dispositivo}
                 }
                 
                 dynamodb = boto3.client('dynamodb', region_name=settings.AWS_REGION,
