@@ -14,8 +14,8 @@ import boto3
 from pathlib import Path
 
 # Configuración de AWS
-AWS_ACCESS_KEY_ID = 'AKIAWIBFK6UUXIMOZQVO'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'AKIAVXOIAPEW3FKX4ZXR'
+AWS_SECRET_ACCESS_KEY = '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'
 AWS_REGION = 'us-east-2'  # Por ejemplo, 'us-east-1'
 
 # Inicializa la conexión a DynamoDB
